@@ -66,7 +66,7 @@ private:
 	CPolygon** m_ppPolygons = NULL;
 
 public:
-	void setPolygon(int nIndex, CPolygon* pPolygon);
+	void SetPolygon(int nIndex, CPolygon* pPolygon);
 
 	// 메쉬를 렌더링한다
 	virtual void Render(HDC hDCFrameBuffer);
